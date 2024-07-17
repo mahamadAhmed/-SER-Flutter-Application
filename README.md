@@ -1,16 +1,20 @@
-# test
+### Speech Emotion Recognition (SER) Flutter Application
+## Overview
+This Flutter application deploys a Speech Emotion Recognition (SER) model, enabling users to record audio, send it to an API built with Flask, and receive emotion analysis results. The application includes a login and sign-up feature implemented using Firebase for authentication and a PHP backend.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+User Authentication: Login and sign-up functionality using Firebase and PHP.
+Audio Recording: Users can record their audio directly from the application.
+API Integration: Recorded audio is sent to a Flask-based API for emotion analysis.
+Emotion Analysis: The application displays the emotion analysis results received from the API.
+Technologies Used
+Flutter: For building the cross-platform mobile application.
+Firebase: For user authentication.
+PHP: For handling login and sign-up processes.
+Flask: For the backend API that processes audio and returns emotion analysis.
+SER Model: Deployed to the Flask API for emotion recognition.
+Prerequisites
+Flutter SDK
+Firebase account
+PHP server
+Flask setup
